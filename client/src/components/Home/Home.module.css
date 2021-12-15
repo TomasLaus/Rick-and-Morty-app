@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(105, 105, 105)
+}
+.homeContainer {
+    max-width: 70%;
+    margin: 0 auto;
+    
+}
+
+.buttonPages {
+    padding: 7px 10px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 10px;
+    border-radius: 7px;
+    border: transparent;
+    transition: .5s;
+}
+.buttonPages:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.555);
+}

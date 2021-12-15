@@ -1,0 +1,35 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #1c1c1c;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.createCharacter {
+    margin-right: 15px;
+    padding: 10px;
+    transition: .5s;
+    border-radius:10px;
+}
+.createCharacter:hover {
+    background-color: grey;
+}
+
+.liCreate {
+    padding: 10px;
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}

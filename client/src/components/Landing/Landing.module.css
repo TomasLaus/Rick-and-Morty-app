@@ -1,0 +1,84 @@
+.background {
+    /* put a background image of rick and morty, the title must be centered and also the link */
+    /* background-image: url("https://www.xtrafondos.com/descargar.php?id=6046&resolucion=3840x2160"); */
+    background-image: url('https://www.xtrafondos.com/descargar.php?id=6401&resolucion=3840x2160');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.backgroundFilter {
+    /* put a backdrop filters that makes a contrast between the image and the text */
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+
+}
+
+.text {
+    /* put the text in the center of the background */
+    color: white;
+    font-size: 3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    z-index: 1;
+}
+
+.h1 {
+    /* put a title with a font size of 3rem */
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px black;
+
+}
+
+.button {
+    /* put a button with a font size of 2rem */
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px black;
+    background-color: #00ff00;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 2px 2px black;
+    outline: none;
+
+
+}
+
+.button:hover {
+    /* put a button with a font size of 2rem */
+    font-size: 2rem;
+    color: white;
+    text-shadow: 2px 2px black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 2px 2px black;
+    outline: none;
+    transform: scale(1.1);
+
+}
